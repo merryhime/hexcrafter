@@ -1,6 +1,7 @@
 set(SRCS
     lexer.cpp
     match.cpp
+    token.cpp
     )
 
 set(HEADERS

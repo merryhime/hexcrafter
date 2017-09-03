@@ -33,6 +33,8 @@ struct token {
     variant type;
 };
 
+void print_token(const token& t);
+
 inline bool operator==(const string_token& a, const string_token& b) {
 	return a.data == b.data;
 }
