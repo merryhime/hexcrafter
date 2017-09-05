@@ -1,4 +1,5 @@
 set(SRCS
+    emit.cpp
     lexer.cpp
     match.cpp
     token.cpp
@@ -6,6 +7,7 @@ set(SRCS
 
 set(HEADERS
     container_util.hpp
+    emit.hpp
     generator.hpp
     lexer.hpp
     match.hpp

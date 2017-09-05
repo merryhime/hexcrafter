@@ -1,4 +1,5 @@
 set(SRCS
+    emit_tests.cpp
     main.cpp
     match_tests.cpp
     )
